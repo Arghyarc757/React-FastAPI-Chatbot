@@ -1,0 +1,48 @@
+.search-status {
+  padding: 0.75rem 0;
+  margin-bottom: 0.5rem;
+  font-size: 0.8125rem;
+  color: #555;
+}
+
+.search-status-line {
+  margin: 0 0 0.25rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #94a3b8;
+  flex-shrink: 0;
+}
+
+.search-dot.reading {
+  background: #3b82f6;
+}
+
+.search-dot.writing {
+  background: #22c55e;
+}
+
+.search-urls {
+  margin: 0.5rem 0 0 1.25rem;
+  padding: 0;
+  list-style: none;
+}
+
+.search-urls li {
+  margin-bottom: 0.25rem;
+}
+
+.search-link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.search-link:hover {
+  text-decoration: underline;
+}

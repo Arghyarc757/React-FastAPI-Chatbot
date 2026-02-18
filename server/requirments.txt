@@ -1,0 +1,7 @@
+langgraph
+langchain_ollama
+langchain-core
+python-dotenv
+fastapi
+langchain-community
+uvicorn
