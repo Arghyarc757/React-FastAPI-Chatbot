@@ -79,7 +79,7 @@ This chatbot follows a client-server architecture:
 ## 🔍 How It Works
 Qwen2.5 (via Ollama) or Google Generative AI (Gemini)
 1. **User sends a message** through the chat interface
-2. **Server processes the message** using GPT-4o
+2. **Server processes the message** using Gemini
 3. **AI decides** whether to use search or respond directly
 4. If search is needed:
    - Search query is sent to Tavily API
@@ -105,4 +105,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ##Built with [Vite](https://vitejs.dev/), [React](https://reactjs.org/), [FastAPI](https://fastapi.tiangolo.com/), and [LangGraph](https://github.com/langchain-ai/langgraph)
 - Powered by [Qwen2.5](https://ollama.ai/) (via Ollama), [Google Generative AI](https://ai.google.dev/),xity.ai](https://www.perplexity.ai/)
 - Built with [Vite](https://vitejs.dev/), [React](https://reactjs.org/), [FastAPI](https://fastapi.tiangolo.com/), and [LangGraph](https://github.com/langchain-ai/langgraph)
-- Powered by [OpenAI GPT-4o](https://openai.com/) and [Tavily Search API](https://tavily.com/)
+- Powered by [Tavily Search API](https://tavily.com/)
